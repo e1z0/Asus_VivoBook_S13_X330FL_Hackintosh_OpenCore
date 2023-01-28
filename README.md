@@ -1,6 +1,7 @@
 # Asus VivoBook S13 X330FL Hackintosh OpenCore
 
-<img src="https://raw.githubusercontent.com/e1z0/Asus_VivoBook_S13_X330FL_Hackintosh_OpenCore/master/pics/IMG_7469.jpeg" width="400" title="Proof of Concept MacOS on VivoBook S13" />
+<img src="https://raw.githubusercontent.com/e1z0/Asus_VivoBook_S13_X330FL_Hackintosh_OpenCore/master/pics/IMG_7469.jpeg" width="400" title="Proof of Concept MacOS on VivoBook S13" /> <img src="https://raw.githubusercontent.com/e1z0/Asus_VivoBook_S13_X330FL_Hackintosh_OpenCore/master/pics/IMG_7471.jpeg" width="400" title="Proof of Concept MacOS on VivoBook S13 with HDMI support" /> <img src="https://raw.githubusercontent.com/e1z0/Asus_VivoBook_S13_X330FL_Hackintosh_OpenCore/master/pics/IMG_7475.jpeg" width="400" title="Proof of Concept MacOS on VivoBook S13 with HDMI support" /> <img src="https://raw.githubusercontent.com/e1z0/Asus_VivoBook_S13_X330FL_Hackintosh_OpenCore/master/pics/IMG_7478.jpeg" width="400" title="Proof of Concept MacOS on VivoBook S13 with HDMI support" /> 
+
 
 ```
 Manufacturer: ASUSTeK COMPUTER INC.
@@ -36,20 +37,21 @@ VoltageShift.kext. It's possible but it will take some time to do it. But for no
 | :white_check_mark: USB 2.0                            | Working                                        |
 | :white_check_mark: Sleep                              | Working                                        |
 | :white_check_mark: MicroSD card reader                | Working                                        |
+| :white_check_mark: Handoff                            | Working                                        |
+| :white_check_mark: iCloud services                    | Working                                        |
 | :heavy_exclamation_mark: Combo audio jack             | Detecting plugged switch but no audio output*2 |
 | :heavy_exclamation_mark: HDMI                         | Working, does not turn on after sleep*3        |
 | :heavy_exclamation_mark: CPU & Full Power Management  | Not yet                                        |
-| :heavy_exclamation_mark: Type-C™ USB 3.1 Gen 1        | Not tested                                        |
+| :heavy_exclamation_mark: Type-C™ USB 3.1 Gen 1        | Not tested                                     |
 | :x: Fingerprint sensor                                | Will never work                                |
 | :x: Dedicated graphics NVIDIA® GeForce® MX250         | Will never work                                |
 
-
-* 1. The keyboard backlight can be controlled via macOS Control Center, however the keyboard control of it does not work.
-* 2. Audio output from 3,5 jack is not working but when connected it's detected by macOS, however only some clanckling sound appears. Maybe it needs some AppleALC parameters or patches.
-* 3. HDMI Is working correctly (sound also), however the issue comes when the laptop goes back from the sleep, it does not automatically on the monitor, the monitor itself needs to be turned off/on or hdmi unplugged/plugged to make the external display work.
+1. The keyboard backlight can be controlled via macOS Control Center, however the keyboard control of it does not work.
+2. Audio output from 3,5 jack is not working but when connected it's detected by macOS, however only some clanckling sound appears. Maybe it needs some AppleALC parameters or patches.
+3. HDMI Is working correctly (sound also), however the issue comes when the laptop goes back from the sleep, it does not automatically on the monitor, the monitor itself needs to be turned off/on or hdmi unplugged/plugged to make the external display work.
 
 # Private beta testing
 
-**_If you want to participate in private beta version testing, please write me email to e1z0@icloud.com you will be provided with further information.._**
+**_If you want to participate in private beta version testing, please write me email to e1z0@icloud.com you will be provided with the further information.._**
 
 
