@@ -26,8 +26,9 @@ VoltageShift.kext. It's possible but it will take some time to do it. But for no
 | :white_check_mark: VGA                                | Working native with hardware acceleration      |
 | :white_check_mark: Video brightness control           | Working with keyboard controls                 |
 | :white_check_mark: Multimedia keyboard keys           | Working                                        |
-| :heavy_exclamation_mark: Keyboard backlight           | Working, but keyboard hotkey does not          |
-| :white_check_mark: Audio                              | Working native AppleALC, HDMI not tested yet   |
+| :heavy_exclamation_mark: Keyboard backlight           | Working, but keyboard hotkey does not*1        |
+| :white_check_mark: Audio                              | Working native AppleALC, HDMI audio works      |
+| :white_check_mark: Microphone                         | Working                                        |    
 | :white_check_mark: Wifi                               | Working                                        |
 | :white_check_mark: Bluetooth                          | Working as Apple3rdparty                       |
 | :white_check_mark: NVMe                               | Working                                        |
@@ -35,14 +36,17 @@ VoltageShift.kext. It's possible but it will take some time to do it. But for no
 | :white_check_mark: USB 2.0                            | Working                                        |
 | :white_check_mark: Sleep                              | Working                                        |
 | :white_check_mark: MicroSD card reader                | Working                                        |
-| :heavy_exclamation_mark: Combo audio jack             | Not yet known                                  |
-| :heavy_exclamation_mark: HDMI                         | Not yet                                        |
+| :heavy_exclamation_mark: Combo audio jack             | Detecting plugged switch but no audio output*2 |
+| :heavy_exclamation_mark: HDMI                         | Working, does not turn on after sleep*3        |
 | :heavy_exclamation_mark: CPU & Full Power Management  | Not yet                                        |
-| :heavy_exclamation_mark: Type-C™ USB 3.1 Gen 1        | Not yet                                        |
+| :heavy_exclamation_mark: Type-C™ USB 3.1 Gen 1        | Not tested                                        |
 | :x: Fingerprint sensor                                | Will never work                                |
 | :x: Dedicated graphics NVIDIA® GeForce® MX250         | Will never work                                |
 
 
+* 1. The keyboard backlight can be controlled via macOS Control Center, however the keyboard control of it does not work.
+* 2. Audio output from 3,5 jack is not working but when connected it's detected by macOS, however only some clanckling sound appears. Maybe it needs some AppleALC parameters or patches.
+* 3. HDMI Is working correctly (sound also), however the issue comes when the laptop goes back from the sleep, it does not automatically on the monitor, the monitor itself needs to be turned off/on or hdmi unplugged/plugged to make the external display work.
 
 # Private beta testing
 
