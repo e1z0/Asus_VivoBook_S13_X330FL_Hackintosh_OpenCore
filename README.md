@@ -7,6 +7,7 @@
 Manufacturer: ASUSTeK COMPUTER INC.
 Product Name: VivoBook S13 X330FL_S330FL
 Version: X330FL
+Bios version: 306
 CPU Version: Intel(R) Core(TM) i7-8565U CPU @ 1.8GHz quad-core with Turbo Boost (up to 4.6GHz) and 8MB cache
 Memory: 16GB LPDDR3 2133 MHz
 Storage: 512GB NVMe SSD
