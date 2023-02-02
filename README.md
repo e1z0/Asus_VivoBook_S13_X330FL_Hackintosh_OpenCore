@@ -15,11 +15,11 @@ Storage: 512GB NVMe SSD
 [More information about this machine](https://www.asus.com/laptops/for-home/vivobook/vivobook-s13-s330/overview/tech-specs08/)
 
 
-A lot of effort have been pushed to this, it works but it's not very 100% fine. It needs optimizations in startup times and power management. The battery is not efficient with this 
-build. Everything else works except some small minor problems like fingerprint sensor not working. But for general usibility even SD Card reader now works, sleep works very well and 
-have been extensively tested. It's small portable machine but for it's full portability it needs full power management with CPU frequency scaling... To make battery last longer, last 
-time I've got only 1,5 hour of work done using only battery. Thats not very good comparing to the Windows, where it lasts over 4 hours.. I need rework this and implement method with 
-VoltageShift.kext. It's possible but it will take some time to do it. But for now it works great and stable.
+A lot of effort have been pushed to this, it works, but it's not very 100% fine. It needs optimizations in startup times and power management. The battery is not efficient with this 
+build. Everything else works except some small minor problems like fingerprint sensor not working. But for general usability even SD Card reader now works, sleep works very well and 
+have been extensively tested. It's a small portable machine, but for its full portability it needs full power management with CPU frequency scaling... To make battery last longer, last 
+time I've got only 1.5 hours of work done using only battery. That's not very good comparing to the Windows, where it lasts over 4 hours… I need to rework this and implement a method with 
+VoltageShift.kext. It's possible, but it will take some time to do it. But for now it works great and stable.
 
 # Status
 
@@ -48,7 +48,7 @@ VoltageShift.kext. It's possible but it will take some time to do it. But for no
 | :x: Dedicated graphics NVIDIA® GeForce® MX250         | Will never work                                |
 
 1. The keyboard backlight can be controlled via macOS Control Center, however the keyboard control of it does not work.
-2. Audio output from 3,5 jack is not working but when connected it's detected by macOS, however only some clanckling sound appears. Maybe it needs some AppleALC parameters or patches.
+2. Audio output from 3,5 jack is not working but when connected it's detected by macOS, however only some clacking sound appears. Maybe it needs some AppleALC parameters or patches.
 3. HDMI Is working correctly (sound also), however the issue comes when the laptop goes back from the sleep, it does not automatically on the monitor, the monitor itself needs to be turned off/on or hdmi unplugged/plugged to make the external display work.
 
 # Private beta testing
