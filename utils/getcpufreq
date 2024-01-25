@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sudo powermetrics | grep "CPU Average frequency as fraction of nominal"

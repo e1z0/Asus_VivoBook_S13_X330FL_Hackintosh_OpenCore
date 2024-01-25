@@ -51,8 +51,5 @@ VoltageShift.kext. It's possible, but it will take some time to do it. But for n
 2. Audio output from 3,5 jack is not working but when connected it's detected by macOS, however only some clacking sound appears. Maybe it needs some AppleALC parameters or patches.
 3. HDMI Is working correctly (sound also), however the issue comes when the laptop goes back from the sleep, it does not automatically on the monitor, the monitor itself needs to be turned off/on or hdmi unplugged/plugged to make the external display work.
 
-# Private beta testing
-
-**_If you want to participate in private beta version testing, please write me email to e1z0@icloud.com you will be provided with the further information.._**
-
+# 2024.01.25 Project files officially published
 

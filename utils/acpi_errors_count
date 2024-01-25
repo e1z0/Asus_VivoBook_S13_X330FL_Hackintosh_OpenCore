@@ -1,0 +1,4 @@
+#!/bin/sh
+log show --predicate "processID == 0" --last boot --info|fgrep "AppleACPIPlatform"
+echo "ERRORS: "
+log show --predicate "processID == 0" --last boot --info|fgrep "AppleACPIPlatform"|grep "ACPI Error"|wc -l

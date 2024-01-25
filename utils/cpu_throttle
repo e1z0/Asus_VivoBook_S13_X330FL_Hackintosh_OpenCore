@@ -1,0 +1,7 @@
+#!/bin/sh
+# info: https://github.com/SeptemberHX/HP-Spectre-X360-13-late-2018-Hackintosh/blob/master/readme.md
+# info2: https://github.com/y0ngj1e/ASUS-S531FL-Hackintosh-OpenCore
+
+sudo ./bin/voltageshift --damage offset -80 -500 -80
+# sudo ./voltageshift buildlaunchd <CPU> <GPU> <CPUCache> <SA> <AI/O> <DI/O> <turbo> <pl1> <pl2> <remain> <UpdateMins (0 only apply at bootup)>
+#sudo ./voltageshift buildlaunchd  -80 -500 -80 0 0 0 0 0 1 50 80 1 160
